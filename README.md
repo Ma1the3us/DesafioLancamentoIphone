@@ -79,6 +79,7 @@ A classe `Iphone` implementa todas as interfaces e reúne as funcionalidades do 
 
 ```java
 public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
+}
 ```
 
 Ela fornece a **implementação concreta dos métodos definidos nas interfaces**.
@@ -129,6 +130,9 @@ public class AparelhoCelular {
                 │
                Iphone
 ```
+## 📊 Diagrama UML
+
+![Diagrama UML](uml/diagrama-uml.png)
 
 A classe **Iphone implementa todas as interfaces**, reunindo os comportamentos do dispositivo.
 
